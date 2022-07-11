@@ -1,7 +1,7 @@
 class Solution:
     """
     URL: https://leetcode.com/problems/valid-anagram/
-    Time Complexity: O(n)
+    Time Complexity: O(nlog(n))
     Space Complexity: O(1)
     Hint: Sort the strings and compare them.
     """
