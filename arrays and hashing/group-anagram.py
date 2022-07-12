@@ -11,10 +11,7 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         res = defaultdict(list)
         for s in strs:
-            t = list(s)
-            t.sort()
-            t = "".join(t)
-            res[t].append(s)
+            res[str(sorted(s))].append(s)
         return res.values()
 
     """
