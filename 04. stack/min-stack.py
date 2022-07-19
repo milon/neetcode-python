@@ -1,3 +1,8 @@
+"""
+Time Complexity: O(1), for each operation
+Space Complexity: O(n)
+"""
+
 class MinStack:
     def __init__(self):
         self.stack = []
